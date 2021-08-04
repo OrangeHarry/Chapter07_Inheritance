@@ -12,5 +12,4 @@ public class D extends A {
 		this.method();
 	}
 	// ¸Þ¼Òµå
-
 }
