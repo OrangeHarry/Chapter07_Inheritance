@@ -8,8 +8,8 @@ public class Tire {
 
 	// 생성자
 	public Tire(String location, int maxRotation) {
-		this.location = location;
-		this.maxRotation = maxRotation;
+		this.location = location;  //초기화
+		this.maxRotation = maxRotation; //초기화
 	}
 
 	// 메소드

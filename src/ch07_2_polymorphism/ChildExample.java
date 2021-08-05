@@ -2,10 +2,10 @@ package ch07_2_polymorphism;
 
 public class ChildExample {
 	public static void main(String[] args) {
-		Child child = new Child("버럭이");
+		Child child1 = new Child("버럭이");
 		Child child2 = new Child("소심이");
 
-		Parent parent = child; // 자동타입변환
+		Parent parent = child1; // 자동타입변환
 
 		parent.method1();
 		parent.method2(); // 재정의된 메소드가 호출됨

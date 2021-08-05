@@ -7,7 +7,7 @@ public class CarExample {
 			int problemLocation = car.run(); // car객체의 run()메소드 5번 실행
 
 			switch (problemLocation) {
-			case 1:
+			case 1: //car.run()메소드의 리턴값!!
 				System.out.println("앞 왼쪽 HankookTire로 교체");
 				car.frontLeftTire = new HankookTire("앞 왼쪽", 15);
 				break;
