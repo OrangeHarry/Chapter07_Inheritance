@@ -7,5 +7,3 @@ public class FileDownloadServlet extends HttpServlet {
 		System.out.println("파일다운로드합니다.");
 	}
 }
-
-
