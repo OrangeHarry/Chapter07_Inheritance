@@ -24,5 +24,4 @@ public class InstanceofExample {
 		method1(parentB);
 //		method2(parentB); // Parent3 객체를 매개값으로 전달
 	}
-
 }
